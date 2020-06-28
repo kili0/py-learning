@@ -16,13 +16,10 @@ for i in range(SIZE):
     data[i].y = np.random.randint(0, 10000)
 
 print("xy?\n")
-
 key = DATA()
-
 key.x, key.y = (int(p) for p in input().split())
 
 minkey = -1
-
 min = float(1000*1000)
 
 for i in range(SIZE):
