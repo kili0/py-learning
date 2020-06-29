@@ -49,3 +49,5 @@ def main():
     plt.scatter(key.x, key.y, c="r")
 
     plt.show()
+
+main()
